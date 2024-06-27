@@ -1,0 +1,90 @@
+.header-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.bnner_slider .owl-item.active h2 {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-name: fadeInDown;
+  animation-delay: 0.3s;
+}
+.bnner_slider .owl-item.active p {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-name: fadeInUp;
+  animation-delay: 0.3s;
+}
+.google_tate {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-name: fadeInLeft;
+  animation-delay: 0.3s;
+}
+.bnner_slider .owl-item.active .bnrRight_img {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-name: fadeInRight;
+  animation-delay: 0.3s;
+}
+.bnner_slider .owl-nav .owl-prev, .bnner_slider .owl-nav .owl-next {
+  position: absolute;
+  left: 30px;
+  top: 43%;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out;
+  width: 40px;
+  cursor: pointer;
+  height: 40px;
+  position: absolute;
+  display: block;
+  z-index: 1000;
+  border-radius: 0;
+  border: none !important;
+}
+.bnner_slider .owl-nav .owl-prev span, .bnner_slider .owl-nav .owl-next span {
+  font-size: 2.5rem;
+  color: #fff;
+}
+.bnner_slider .owl-nav .owl-prev:focus, .bnner_slider .owl-nav .owl-next:focus {
+  outline: 0;
+}
+.bnner_slider .owl-nav .owl-next {
+  left: auto;
+  right: 30px;
+}
+.bnner_slider:hover .owl-prev, .bnner_slider:hover .owl-next {
+  opacity: 1;
+}
+.owl-carousel .owl-item img {
+  width: auto;
+  display: inline-block;
+}
+.owl-nav {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.owl-nav button:not(:last-child) {
+  margin-right: 10px;
+}
+.owl-nav button {
+  width: 25px;
+  height: 25px;
+  color: #fc8004 !important;
+  font-size: 24px !important;
+  border: 1px solid #fc8004 !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+}
